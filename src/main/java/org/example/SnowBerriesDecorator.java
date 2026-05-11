@@ -6,11 +6,11 @@ public class SnowBerriesDecorator extends StewDecorator{
     }
     @Override
     public String getName() {
-        return stew.getName() + " со снежными ягодами";
+        return super.getName() + " со снежными ягодами";
     }
 
     @Override
     public int getCost() {
-        return stew.getCost() + 6;
+        return super.getCost() + 6;
     }
 }
