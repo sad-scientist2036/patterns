@@ -6,11 +6,11 @@ public class NordicFlatbreadDecorator extends StewDecorator{
     }
     @Override
     public String getName() {
-        return stew.getName() + " с нордской лепешкой";
+        return super.getName() + " с нордской лепешкой";
     }
 
     @Override
     public int getCost() {
-        return stew.getCost() + 7;
+        return super.getCost() + 7;
     }
 }
