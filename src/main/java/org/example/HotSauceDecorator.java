@@ -6,11 +6,11 @@ public class HotSauceDecorator extends StewDecorator{
     }
     @Override
     public String getName() {
-        return stew.getName() + " с огненным соусом";
+        return super.getName() + " с огненным соусом";
     }
 
     @Override
     public int getCost() {
-        return stew.getCost() + 10;
+        return super.getCost() + 10;
     }
 }
