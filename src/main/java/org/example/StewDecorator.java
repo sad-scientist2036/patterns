@@ -1,7 +1,7 @@
 package org.example;
 
 public abstract class StewDecorator implements Stew {
-    protected Stew stew;
+    private Stew stew;
     public StewDecorator(Stew stew){
         this.stew = stew;
     }
