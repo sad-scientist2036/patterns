@@ -6,11 +6,11 @@ public class DoubleVenisonDecorator extends StewDecorator{
     }
     @Override
     public String getName() {
-        return stew.getName() + " с двойной олениной";
+        return super.getName() + " с двойной олениной";
     }
 
     @Override
     public int getCost() {
-        return stew.getCost() + 20;
+        return super.getCost() + 20;
     }
 }
